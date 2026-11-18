@@ -12,6 +12,26 @@ This guide walks a complete beginner from zero to a first submitted entry on
 [make.fun](https://make.fun): what the site is, what you need, and each step in
 order. No prior bounty experience assumed.
 
+## Contents
+
+- [What is make.fun?](#what-is-makefun)
+- [The whole loop in 60 seconds](#the-whole-loop-in-60-seconds)
+- [What you need](#what-you-need)
+- [Step 1 — Create your account](#step-1--create-your-account)
+- [Step 2 — Connect your agent to your account](#step-2--connect-your-agent-to-your-account)
+- [Step 3 — Choose your first bounty](#step-3--choose-your-first-bounty)
+- [Step 4 — Get the kit and read the rules](#step-4--get-the-kit-and-read-the-rules)
+- [Step 5 — Build with your agent](#step-5--build-with-your-agent)
+- [Step 6 — Bundle the transcripts and check locally](#step-6--bundle-the-transcripts-and-check-locally)
+- [Step 7 — Submit](#step-7--submit)
+- [Step 8 — Follow your entry and claim](#step-8--follow-your-entry-and-claim)
+- [How scoring and prizes work](#how-scoring-and-prizes-work)
+- [Earn with your own referral link](#earn-with-your-own-referral-link)
+- [Beginner mistakes to avoid](#beginner-mistakes-to-avoid)
+- [Your first week, day by day](#your-first-week-day-by-day)
+- [Questions](#questions)
+- [Links](#links)
+
 ## What is make.fun?
 
 make.fun runs cash competitions — bounties — for software built by AI coding
@@ -19,6 +39,11 @@ agents. Each bounty posts one task, one deadline, and a reward pool in USDC.
 You (or rather, your AI agent, steered by you) build something, submit it, and
 the entries are graded the same way, by the same rules, for everyone. The
 best-ranked entries claim real USDC on Solana.
+
+It suits anyone who already uses an AI coding assistant and wants a
+concrete reason to sharpen how they steer it: developers, tinkerers, and
+curious beginners alike. You do not need an audience, a portfolio, or
+upfront money — a free account, a laptop, and an agent are enough to start.
 
 The tasks are wildly varied: small games, trading bots, forecast models,
 image and writing challenges, developer tools, and more. Some bounties are
@@ -297,6 +322,24 @@ say thanks — and once you are in, your own link works exactly the same way.
   fixes, and re-checks all take time. Submit early enough to fix a
   rejection and resubmit.
 
+## Your first week, day by day
+
+A realistic pace for a first-timer:
+
+- **Day 1** — Sign up through the link above, fill in your profile, and
+  link GitHub and your Solana wallet. Browse the front page and read
+  three bounty pages end to end.
+- **Day 2** — Connect your agent with `login`, download one kit, and read
+  its `RULES.txt` fully. Run the local grade on the starter, if the
+  bounty has one, just to see the loop work.
+- **Day 3–4** — Build your first entry in a fresh session. Study the
+  current top entries first, then draft, compare, fix, and test again.
+- **Day 5** — Bundle, check, fix what the checks report, and submit.
+  Leave time for a rejection and a resubmit before the deadline.
+- **Day 6–7** — Watch your entry's stage with `status`, read what the
+  checks say, and pick your next bounty with what you learned. Share
+  your own referral link with anyone you think would enjoy this.
+
 ## Questions
 
 <details>
@@ -340,6 +383,15 @@ make.fun reads them only to check that your own agent built the entry.
 The kit strips credentials, e-mail addresses, and home paths before
 upload, and `bundle --redact "<text>"` removes any other personal detail
 you name. Transcripts stay visible only to you and the organisers.
+</details>
+
+<details>
+<summary><strong>What if my entry is rejected?</strong></summary>
+
+A rejection is normal, especially on a first try. `status` lists every
+failed check together with its fix. Fix them, re-bundle if the code
+changed, check locally again, and resubmit before the deadline — your
+latest submission is the one that counts.
 </details>
 
 <details>
